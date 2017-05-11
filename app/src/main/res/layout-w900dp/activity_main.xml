@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jv.ui.ui.activities.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".jv.ui.ui.activities.MainActivity">
+
+        <!-- fragments without id needs for switch off control saving state in moxy -->
+
+        <fragment
+            android:name="work.maxgol.movieviewer.jv.ui.ui.fragments.AppBarLayoutFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/app_bar_layout_fragment" />
+
+
+        <LinearLayout
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <fragment
+                android:name="work.maxgol.movieviewer.jv.ui.ui.fragments.RecyclerViewFragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:layout="@layout/recycler_view_layout" />
+
+
+            <FrameLayout
+                android:id="@+id/movie_detail_container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Float Action Menu -->
+    <include layout="@layout/fam" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+

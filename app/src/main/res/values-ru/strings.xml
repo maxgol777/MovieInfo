@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_list_message">Список пуст</string>
+    <string name="release_date">Дата выхода :</string>
+    <string name="original_language">Оригинальный язык</string>
+    <string name="vote_count">Количество голосов</string>
+    <string name="vote_average">Средняя оценка</string>
+    <string name="budget">Бютжет</string>
+    <string name="adults_only">Только для взрослых</string>
+    <string name="original_title">Оригинальное название</string>
+    <string name="popularity">Рейтинг</string>
+    <string name="revenue">Доход</string>
+    <string name="status">Статус</string>
+    <string name="tagline">Подзаголовок</string>
+    <string name="genres">Жанр</string>
+    <string name="productionCompanies">Произведено</string>
+    <string name="productionCountries">Страна</string>
+    <string name="description">Описание</string>
+    <string name="clear_cache">Очистить кэш</string>
+    <string name="change_language">Изменить язык</string>
+    <string name="cache_cleared">Кэш очищен !</string>
+    <string name="settings_title">Настройки</string>
+    <string name="select_language">Выбрать язык</string>
+    <string name="summary_lp">Выбрать язык приложения</string>
+    <string name="settings">Настройки</string>
+    <string name="lang">Язык</string>
+    <string name="mes1">Установите, пожалуйста приложение для просмотра видео c  YouTube !</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/def_value"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="@string/languagePref"
+        android:summary="@string/summary_lp"
+        android:title="@string/select_language" />
+
+    <Preference
+        android:key="@string/cc_pref"
+        android:title="@string/clear_cache" />
+
+</PreferenceScreen>
